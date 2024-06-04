@@ -18,3 +18,70 @@
         #d7337a
     */
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-name);
+}
+
+section {
+  padding: 50px 0px;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+a:hover {
+  color: unset;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0px 15px;
+  margin: auto;
+  width: 100%;
+}
+
+/* For small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+/* For medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+/* For large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+/* For extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+.section__title {
+  color: var(--heading-color);
+  font-weight: 700;
+}
